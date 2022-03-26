@@ -1,0 +1,63 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #202632;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.advice-container {
+  width: 450px;
+  background-color: #313a49;
+  border: none;
+  border-radius: 20px;
+  margin: 15px;
+}
+.advice-wrapper {
+  padding: 30px;
+  height: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.advice-header {
+  color: #66c5a3;
+  text-transform: uppercase;
+}
+
+.main-advice {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.bottom-line {
+  margin-bottom: 20px;
+}
+
+.bottom-logo {
+  position: absolute;
+  padding: 10px;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: #52ffad;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
